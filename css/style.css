@@ -37,13 +37,13 @@ header .logo{
     font-family: Inter tight;
 }
 
-header nav{
+/* header nav{
     float: right;
     line-height: 200px;
-}
+} */
 
-header nav a{
-    display: inline-block;
+.menu{
+    width: 100%;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
@@ -55,9 +55,18 @@ header nav a{
     -o-transition:500ms ease ;
     transition:500ms ease ;
     border-radius: 50px;
+    
 }
 
-header nav a:hover {
+.menuItems{
+    flex-direction: row-reverse;
+}
+
+.menuDos:hover {
+    background-color: #ff4655;
+}
+
+.hamburguesa{
     background-color: #ff4655;
 }
 
