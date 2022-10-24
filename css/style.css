@@ -32,9 +32,13 @@ h2 {
 header .logo{
     color: #ff4655;
     font-size: 50px;
-    line-height: 200px;
+    line-height: inherit;
     float: left;
     font-family: Inter tight;
+}
+
+.navwrapper {
+    padding: 20px 0;
 }
 
 /* header nav{
@@ -46,7 +50,7 @@ header .logo{
     width: 100%;
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     font-family: Inter tight;
     line-height: normal;
     font-size: 20px;
@@ -69,6 +73,23 @@ header .logo{
 .hamburguesa{
     background-color: #ff4655;
 }
+
+@media (max-width: 576px) {
+    header .logo{
+        font-size: 30px;
+        line-height: inherit;
+        
+    }
+
+}
+@media (max-width: 990px) {
+    .nav-link{
+        padding-left: 10px;
+        border-radius: 15px;
+    }
+
+}
+
 
 section .img-banner{
     width: 100%;
