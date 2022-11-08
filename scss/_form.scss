@@ -1,0 +1,13 @@
+@import "./colores";
+
+.boton-enviar{
+    font-size: 18px;
+    font-family: Inter tight;
+    color: $color-primario;
+    font-weight: bold;
+    border-radius: 12px;
+    margin-top: 10px;
+    float: right;
+    padding: 10px;
+    background-color: $color-secundario;
+}

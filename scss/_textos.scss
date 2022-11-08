@@ -1,0 +1,31 @@
+@import "./colores";
+
+p {
+    &.texto-contenido {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: Inter tight;
+
+        @media (max-width: 576px) {
+            font-size: 15px;
+        }
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: $color-primario;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-family: Inter tight;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Inter tight;
+    color: $color-primario;
+}

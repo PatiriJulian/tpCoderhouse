@@ -1,0 +1,44 @@
+@import "./colores";
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: $color-secundario;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;  
+
+    .wrapper{
+        color: $color-primario;
+    }
+
+    .titulo-seccion{
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Inter tight;
+        font-weight: bold;
+    }
+
+    .redes-sociales {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .fa-brands{
+        color: $color-primario;
+    }
+
+    .copy{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Inter tight;
+    }
+    
+}
