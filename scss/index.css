@@ -64,6 +64,11 @@ footer .titulo-seccion {
   font-family: Inter tight;
   font-weight: bold;
 }
+@media (max-width: 576px) {
+  footer .titulo-seccion {
+    display: none;
+  }
+}
 footer .redes-sociales {
   display: flex;
   justify-content: space-evenly;
@@ -71,6 +76,11 @@ footer .redes-sociales {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 30px;
+}
+@media (max-width: 576px) {
+  footer .redes-sociales {
+    font-size: 25px;
+  }
 }
 footer .fa-brands {
   color: #ff4655;
@@ -232,12 +242,6 @@ body {
   header .logo {
     font-size: 30px;
     line-height: inherit;
-  }
-  footer .titulo-seccion {
-    display: none;
-  }
-  footer .redes-sociales {
-    font-size: 25px;
   }
 }
 @media (max-width: 990px) {

@@ -19,16 +19,22 @@ footer{
         align-items: center;
         font-family: Inter tight;
         font-weight: bold;
+        @media (max-width: 576px) {
+                display: none;
+        }
     }
 
     .redes-sociales {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 30px;
-    }
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            @media (max-width: 576px) {
+                    font-size: 25px;
+            }
+        }
 
     .fa-brands{
         color: $color-primario;
@@ -40,5 +46,4 @@ footer{
         align-items: center;
         font-family: Inter tight;
     }
-    
 }
