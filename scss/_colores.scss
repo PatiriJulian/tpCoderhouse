@@ -4,13 +4,13 @@ $menu-links:#ffffff;
 $tex-color:#000;
 $card-shadow-color:rgba(0, 0, 0, 0.2);
 
-$colors: (
+$bg-colors: (
         'rojo': $color-primario,
         'azul': $color-secundario,
         'blanco': $menu-links,
         );
 
-@each $name, $value in $colors {
+@each $name, $value in $bg-colors {
     .bg-#{$name} {
       background-color: $value;
     }
