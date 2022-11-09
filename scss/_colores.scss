@@ -3,3 +3,15 @@ $color-secundario:#0f1923;
 $menu-links:#ffffff;
 $tex-color:#000;
 $card-shadow-color:rgba(0, 0, 0, 0.2);
+
+$colors: (
+        'rojo': $color-primario,
+        'azul': $color-secundario,
+        'blanco': $menu-links,
+        );
+
+@each $name, $value in $colors {
+    .bg-#{$name} {
+      background-color: $value;
+    }
+  }

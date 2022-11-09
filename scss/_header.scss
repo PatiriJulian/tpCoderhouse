@@ -3,7 +3,6 @@
 header{
     width: 100%;
     overflow: hidden;
-    background-color: $color-secundario;
     margin-bottom: 20px;
     li{
         font-size: 30px;
@@ -47,12 +46,6 @@ header{
 
         .menuDos:hover {
             background-color: $color-primario;
-        }
-
-        .hamburguesa{
-            background-color: $color-primario;
-        }
-        
-    }
-    
+        }       
+    }  
 }

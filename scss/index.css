@@ -1,4 +1,12 @@
-body {
+.bg-rojo {
+  background-color: #ff4655;
+}
+
+.bg-azul {
+  background-color: #0f1923;
+}
+
+.bg-blanco {
   background-color: #ffffff;
 }
 
@@ -23,6 +31,18 @@ body {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+}
+
+.bg-rojo {
+  background-color: #ff4655;
+}
+
+.bg-azul {
+  background-color: #0f1923;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
 }
 
 .card {
@@ -66,10 +86,21 @@ body {
   margin-bottom: 10px;
 }
 
+.bg-rojo {
+  background-color: #ff4655;
+}
+
+.bg-azul {
+  background-color: #0f1923;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
+}
+
 footer {
   width: 100%;
   overflow: hidden;
-  background-color: #0f1923;
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -110,6 +141,18 @@ footer .copy {
   font-family: Inter tight;
 }
 
+.bg-rojo {
+  background-color: #ff4655;
+}
+
+.bg-azul {
+  background-color: #0f1923;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
+}
+
 .boton-enviar {
   font-size: 18px;
   font-family: Inter tight;
@@ -119,13 +162,23 @@ footer .copy {
   margin-top: 10px;
   float: right;
   padding: 10px;
+}
+
+.bg-rojo {
+  background-color: #ff4655;
+}
+
+.bg-azul {
   background-color: #0f1923;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
 }
 
 header {
   width: 100%;
   overflow: hidden;
-  background-color: #0f1923;
   margin-bottom: 20px;
 }
 header li {
@@ -172,8 +225,17 @@ header .navwrapper .menuItems {
 header .navwrapper .menuDos:hover {
   background-color: #ff4655;
 }
-header .navwrapper .hamburguesa {
+
+.bg-rojo {
   background-color: #ff4655;
+}
+
+.bg-azul {
+  background-color: #0f1923;
+}
+
+.bg-blanco {
+  background-color: #ffffff;
 }
 
 p.texto-contenido {
