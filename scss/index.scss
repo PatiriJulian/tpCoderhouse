@@ -1,11 +1,23 @@
+/**variables y colores de componentes y backgrounds */
 @import "./colores";
-@import "./estructura";
+/** reset básico de css */
 @import "./reset";
-@import "./cards";
+/** estructura basica de la pagina */
+@import "./estructura";
+/** Definición del footer */
 @import "./footer";
-@import "./form";
+/** Definición del header */
 @import "./header";
-@import "./textos";
-@import "./carrousel";
-@import "./iframe";
+/** componentes usados en la sección index */
 @import "./seccion_inicio";
+/** componentes usados en la sección contactos */
+@import "./form";
+/** componentes usados en la sección coach */
+@import "./cards";
+/** definición de textos */
+@import "./textos";
+/** componentes usados en la sección mapas */
+@import "./carrousel";
+/** componentes usados en la sección sobre nosotros */
+@import "./iframe";
+
