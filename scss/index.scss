@@ -6,6 +6,7 @@
 @import "./header";
 @import "./textos";
 @import "./carrousel";
+@import "./iframe";
 
 
 
@@ -25,16 +26,7 @@ body{
 
 
 
-.gmap_canvas {
-    
-    width: 100%;
-    height: 400px;
-}
 
-.gmap_iframe {
-    width: 100%;
-    height: 400px;
-}
 
 
 @media (max-width: 576px) {
