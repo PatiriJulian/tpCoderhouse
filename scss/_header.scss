@@ -1,7 +1,9 @@
+@import "./colores";
+
 header{
     width: 100%;
     overflow: hidden;
-    background-color: #0f1923;
+    background-color: $color-secundario;
     margin-bottom: 20px;
     li{
         font-size: 30px;
@@ -22,7 +24,7 @@ header{
         padding: 20px 0;
         .menu{
             width: 100%;
-            color: #ffffff;
+            color: $menu-links;
             text-decoration: none;
             /* padding: 10px 20px; */
             font-family: Inter tight;
@@ -44,11 +46,11 @@ header{
         }
 
         .menuDos:hover {
-            background-color: #ff4655;
+            background-color: $color-primario;
         }
 
         .hamburguesa{
-            background-color: #ff4655;
+            background-color: $color-primario;
         }
         
     }
