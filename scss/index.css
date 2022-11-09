@@ -52,12 +52,9 @@ footer {
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-footer .wrapper {
   color: #ff4655;
 }
-footer .titulo-seccion {
-  height: 10px;
+footer h3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +62,7 @@ footer .titulo-seccion {
   font-weight: bold;
 }
 @media (max-width: 576px) {
-  footer .titulo-seccion {
+  footer h3 {
     display: none;
   }
 }
