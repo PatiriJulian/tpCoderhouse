@@ -1,50 +1,11 @@
+@import "./colores";
+@import "./estructura";
 @import "./reset";
 @import "./cards";
-@import "./colores";
 @import "./footer";
 @import "./form";
 @import "./header";
 @import "./textos";
 @import "./carrousel";
 @import "./iframe";
-
-
-
-body{
-    background-color: #ffffff;
-}
-
-.wrapper {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-@media (max-width: 576px) {
-    header .logo{
-        font-size: 30px;
-        line-height: inherit;
-        
-    }
-
-}
-
-
-
-@media (max-width: 990px) {
-    .nav-link{
-        padding-left: 10px;
-        border-radius: 15px;
-    }
-
-    
-}
+@import "./seccion_inicio";

@@ -1,0 +1,21 @@
+body{
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 2000px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+}

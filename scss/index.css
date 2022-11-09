@@ -1,3 +1,24 @@
+body {
+  background-color: #ffffff;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
 * {
   padding: 0%;
   margin: 0%;
@@ -107,7 +128,10 @@ header {
   background-color: #0f1923;
   margin-bottom: 20px;
 }
-
+header li {
+  font-size: 30px;
+  font-family: Inter tight;
+}
 header .logo {
   color: #ff4655;
   font-size: 50px;
@@ -115,12 +139,16 @@ header .logo {
   float: left;
   font-family: Inter tight;
 }
-
-.navwrapper {
+@media (max-width: 576px) {
+  header .logo {
+    font-size: 30px;
+    line-height: inherit;
+  }
+}
+header .navwrapper {
   padding: 20px 0;
 }
-
-.menu {
+header .navwrapper .menu {
   width: 100%;
   color: #ffffff;
   text-decoration: none;
@@ -132,54 +160,22 @@ header .logo {
   transition: 500ms ease;
   border-radius: 50px;
 }
-
-.menuItems {
-  flex-direction: row-reverse;
-}
-
-.menuDos:hover {
-  background-color: #ff4655;
-}
-
-.hamburguesa {
-  background-color: #ff4655;
-}
-
-section .img-banner {
-  width: 100%;
-}
-
-section .container {
-  width: 100%;
-  max-width: 2000px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
-
-li {
-  font-size: 30px;
-  font-family: Inter tight;
-}
-
-.flex-outer {
-  width: 100%;
-}
-
-@media (max-width: 576px) {
-  header .logo {
-    font-size: 30px;
-    line-height: inherit;
-  }
-}
 @media (max-width: 990px) {
-  .nav-link {
+  header .navwrapper .menu {
     padding-left: 10px;
     border-radius: 15px;
   }
 }
+header .navwrapper .menuItems {
+  flex-direction: row-reverse;
+}
+header .navwrapper .menuDos:hover {
+  background-color: #ff4655;
+}
+header .navwrapper .hamburguesa {
+  background-color: #ff4655;
+}
+
 p.texto-contenido {
   margin-top: 10px;
   font-size: 20px;
@@ -224,26 +220,6 @@ h2 {
   height: 400px;
 }
 
-body {
-  background-color: #ffffff;
-}
-
-.wrapper {
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
-  overflow: hidden;
-}
-
-@media (max-width: 576px) {
-  header .logo {
-    font-size: 30px;
-    line-height: inherit;
-  }
-}
-@media (max-width: 990px) {
-  .nav-link {
-    padding-left: 10px;
-    border-radius: 15px;
-  }
+.img-banner {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
